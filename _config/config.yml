@@ -1,0 +1,6 @@
+---
+Name: gridfield-bulkdelete
+---
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - 'heyday/gridfield-bulk-delete:client/js/bulkdelete_confirm.js'
