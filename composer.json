@@ -18,9 +18,9 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"silverstripe/cms": "^4.4@dev",
-		"silverstripe/admin": "^1.4@dev",
-		"silverstripe/vendor-plugin": "^1"
+		"silverstripe/cms": "^4 || ^5",
+		"silverstripe/admin": "2.2",
+		"silverstripe/vendor-plugin": "^2"
 	},
 	"extra": {
 		"expose": [
@@ -30,6 +30,12 @@
 	"autoload": {
 		"psr-4": {
 			"DNADesign\\GridFieldBulkDelete\\": "src/"
+		}
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"silverstripe/vendor-plugin": true
 		}
 	}
 }
