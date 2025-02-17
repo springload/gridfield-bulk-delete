@@ -19,7 +19,7 @@
 	"prefer-stable": true,
 	"require": {
 		"silverstripe/cms": "^4 || ^5",
-		"silverstripe/admin": "2.2",
+		"silverstripe/admin": "^2.2",
 		"silverstripe/vendor-plugin": "^2"
 	},
 	"extra": {
